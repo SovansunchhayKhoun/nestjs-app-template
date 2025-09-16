@@ -1,0 +1,11 @@
+import { ApiProperty } from '@nestjs/swagger';
+import { BaseResponseDto } from 'src/common/dto/base-response.dto';
+import { I{{ModuleName}} } from '../../entities/{{moduleName}}.entity';
+
+export class Base{{ModuleName}}ResponseDto extends BaseResponseDto implements I{{ModuleName}} {
+
+}
+
+export class Initial{{ModuleName}}ResponseDto extends Base{{ModuleName}}ResponseDto {
+
+}

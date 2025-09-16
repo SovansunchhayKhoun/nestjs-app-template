@@ -1,0 +1,7 @@
+import { BaseEntityDto } from 'src/common/dto/base-entity.dto';
+import { Column, Entity } from 'typeorm';
+
+export type I{{ModuleName}} = {}
+
+@Entity()
+export class {{ModuleName}} extends BaseEntityDto implements I{{ModuleName}} {}
