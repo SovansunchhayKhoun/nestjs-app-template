@@ -10,6 +10,7 @@
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "drop:db": "node scripts/drop-db.cjs",
     "type:check": "npx tsc --watch --noEmit",
+    "upgrade:package": "npx npm-check-updates --interactive",
     "copy:env": "node scripts/write-env.cjs",
     "build:dev": "pnpm copy:env development && nest build",
     "build:staging": "pnpm copy:env staging && nest build",
